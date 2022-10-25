@@ -1,0 +1,12 @@
+h1{
+    background-color:antiquewhite;
+    
+}
+a:link,a:visited{
+    background-color: bisque;
+    display: inline-block;
+    color:blue;
+}
+a:hover,a:active{
+    background-color: brown;
+}

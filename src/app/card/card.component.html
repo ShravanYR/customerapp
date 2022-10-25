@@ -1,0 +1,32 @@
+Filter:<input type="text" value="FilterByName">
+<br>
+<br>
+<input type="button" (click)="printCustomers($event)" value="getCustomers"/>
+<div class="card my-5">
+<div class="card-body">
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>UserName</th>
+            <th>Email</th>
+            
+         </thead>
+         <tbody>
+         <tr *ngFor="let user of customers">
+                <td>{{user.id}}</td>
+                <td>{{user.name}}</td>
+                <td>{{user.username}}</td>
+                <td>{{user.email}}</td>
+
+         </tr>
+         </tbody>
+
+    </table>
+
+</div>
+
+</div>
+
+
+
